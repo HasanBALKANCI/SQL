@@ -44,7 +44,7 @@ LIMIT 5;
 
 SELECT *
 FROM invoices
-WHERE  tracks  LIKE "B%_S%" ;
+WHERE  tracks  LIKE "B%S" ;
 
 
 /*7. Use the invoices table to find all information regarding invoices whose billing address is 
